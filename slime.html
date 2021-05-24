@@ -7,19 +7,34 @@
     <link rel="stylesheet" href="./libs/fontawesome-free-5.15.3-web/css/all.css">
     <link rel="stylesheet" href="./statics/styles/basics.css">
     <link rel="stylesheet" href="./statics/styles/style.css">
+    <script src="./libs/jquery-3.6.0.min.js"></script>
+    <script src="./script/events.js"></script>
     <title>Cute Slime</title>
 </head>
 <body>
     <div id="mainBox">
         <h1>Cute Slime</h1>
         <div id="colors">
-            colores
+            <div id="overworldd">
+                <h5>Colores del overworld</h5>
+                <div class="overworld" id="rojo"></div>
+                <div class="overworld" id="rosa"></div>
+                <div class="overworld" id="verde"></div>
+                <div class="overworld" id="naranja"></div>
+            </div>
+            <div id="netherr">
+                <h5>Colores del Nether</h5>
+                <div class="nether" id="bedrock"></div>
+                <div class="nether" id="lava"></div>
+            </div>
         </div>
         <div id="mySlime">
-            <i class="fas fa-cube fa-9x"></i>
+            <div id="Slime"></div>
         </div>
         <div id="actions">
-            Acciones
+            <div class="animations" id="animation1"><p>Saltar</p></div>
+            <div class="animations" id="animation3"><p>Acariciar</p></div>
+            <div class="animations" id="animation2"><p>Inflarse</p></div>
         </div>
     </div>
 </body>

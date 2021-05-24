@@ -3,3 +3,19 @@
 h1{
     text-align: center;
 }
+/*=COLORS
+-----------------------------------------------------------------------*/
+:root{
+    --backgrounds: #1b033b;
+    --clearBlue: #00c6e0;
+    --darkBlue: #082b9E;
+    --slimyGreen: #0cf771;
+    --grassGreen: #40b804;
+
+    --slimePink: #CE77BF;
+    --originalSlime: #4DBA30;
+    --slimeRed: #B5282D;
+    --slimeOrange:#D17E2D;
+
+    --slimeCoal: #292523;
+}
