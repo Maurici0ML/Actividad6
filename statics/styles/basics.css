@@ -1,7 +1,26 @@
 /*=FONTS
 ------------------------------------------------------------------------*/
+@font-face {
+    font-family: "Ranchers";
+    src: url("../fonts/Ranchers/Ranchers-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Magra";
+    src: url("../fonts/Magra/Magra-Regular.ttf");
+}
+
 h1{
     text-align: center;
+    font-family: "Ranchers", Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+p{
+    text-align: center;
+    font-family: "Magra", Verdana, Tahoma, sans-serif;
+    font-size: 15px;
 }
 /*=COLORS
 -----------------------------------------------------------------------*/
