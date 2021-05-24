@@ -147,7 +147,7 @@ h5{
 /*=Inicialización
 ------------------------------------------------------- */
 .move1{
-    animation: jump 1s linear 0.5s infinite alternate;
+    animation: jump 1s ease 0.5s infinite alternate;
 }
 
 .move2{
@@ -160,13 +160,13 @@ h5{
 ------------------------------------------------------- */
 @keyframes jump {
     0%{
-        transform: scale(100%, 98%);
+        transform: scale(100%, 100%);
     }
     10%{
-        transform: scale(100%,91%);
+        transform: scale(100%,88%);
     }
     30%{
-        transform: scale(100%, 85%);
+        transform: scale(100%, 83%);
     }
     60%{
         transform: scale(100%, 98%);
@@ -180,7 +180,7 @@ h5{
         transform: translate(0, -28%);    
     }
     100%{
-        transform: scale(100%, 115%);
+        transform: scale(100%, 125%);
         transform: translate(0, -60%);
     }
 }
@@ -196,11 +196,11 @@ h5{
     }
     60%{
         transform: scale(95%,90%);
-        transform: rotate(-2deg);
+        transform: rotate(-3deg);
     }
     80%{
         transform: scale(94%,90%);
-        transform: rotate(2deg);
+        transform: rotate(3deg);
     }
     100%{
         transform: scale(96%,92%);

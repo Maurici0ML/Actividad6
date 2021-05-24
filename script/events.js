@@ -1,5 +1,4 @@
 $(window).on("load", ()=>{
-//Animaciones 
     slimeSquare1=$("#Slime1");
     slimeSquare2=$("#Slime2");
     slimeSquare3=$("#Slime3");
