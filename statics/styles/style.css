@@ -91,13 +91,43 @@ h5{
 #bedrock, #lava{
     background-color: var(--slimeCoal);
 }
-#Slime{
+#Slime1{
+    position: relative;
+    border: 10px solid #3d9126;
+    top: 55%;
+    right: 40%;
     display: inline;
     float: right;
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 35%;
+    transform: skew(0deg, 6deg);
     background-color: var(--originalSlime);
 }
+#Slime2{
+    position: relative;
+    border: 10px solid #3d9126;
+    top: 55%;
+    right: -19%;
+    display: inline;
+    float: right;
+    width: 22%;
+    height: 35%;
+    transform: skew(2deg, -8deg);
+    background-color: var(--originalSlime);
+}
+#Slime3 {
+    position: relative;
+    border: 3px solid #3d9126;
+    top: 48%;
+    right: -31%;
+    display: inline;
+    float: right;
+    width: 31%;
+    height: 7%;
+    transform: skew(-79deg, 9deg);
+    background-color: var(--originalSlime);
+}
+
 .move1{
     animation: jump 5s linear 0.5s 8 alternate;
 }
