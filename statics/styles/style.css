@@ -121,15 +121,40 @@ h5{
     height: 35%;
     background-color: var(--originalSlime);
 }
+#ojo1, #ojo2, #mouth{
+    display: inline-block;
+    width: 20%;
+    height: 15%;
+    background-color: black;
+}
+#ojo1{
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+#ojo2{
+    position: relative;
+    left: 40%;
+    top: 20%;
+}
+#mouth{
+    position: relative;
+    left: 10%;
+    top: 60%;
+    width: 10%;
+
+}
+/*=Inicialización
+------------------------------------------------------- */
 .move1{
-    animation: jump 2s linear 0.5s infinite alternate;
+    animation: jump 1s linear 0.5s infinite alternate;
 }
 
 .move2{
-    animation: inflate 4s linear 0.5s infinite alternate;
+    animation: inflate 2s linear 0.5s infinite alternate;
 }
 .move3{
-    animation: cuddle 3s linear 0.5s infinite alternate;
+    animation: cuddle 1.5s linear 0.5s infinite alternate;
 }
 /*=Animations
 ------------------------------------------------------- */
