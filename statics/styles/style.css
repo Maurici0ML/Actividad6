@@ -11,13 +11,13 @@ body{
     top: 5%;
     width: 44%;
     height: 92%;
-    background-color: var(--clearBlue);
+    background-color: #B8C0D4;
 }
 
 h1{
     margin-top: 0;
     margin-bottom: 0;
-    border: 2px solid var(--grassGreen);
+    border: 3px solid black;
     box-sizing: border-box;
 }
 
@@ -27,8 +27,8 @@ h1{
     margin: 0;
     width: 25%;
     height: 65%;
-    border: 2px solid var(--grassGreen);
-    background-color: var(--clearBlue);
+    border: 2px solid black;
+    background-color: #C5D7D9;
 }
 
 #mySlime{
@@ -38,7 +38,7 @@ h1{
     box-sizing: border-box;
     width: 75%;
     height: 65%;
-    border: 2px solid var(--grassGreen);
+    border: 3px solid black;
     background-color: var(--backgrounds);
     margin: 0;
     background-image: url(../img/slimeBackground.jpg);
@@ -48,8 +48,8 @@ h1{
 #actions{
     width: 100%;
     height: 25%;
-    background-color: var(--backgrounds);
-    color: var(--slimyGreen);
+    background-color: #4F5159;
+    color: white;
 }
 #overworldd{
     width: 100%;
@@ -72,7 +72,7 @@ h5{
     display: inline-block;
     box-sizing: border-box;
     margin: 0 -1% 0 0;
-    border: 2px solid var(--grassGreen);
+    border: 2px solid black;
     height: 100%;
     width: 33.6%;
     cursor: pointer;
