@@ -149,7 +149,7 @@ h5{
 /*=Inicialización
 ------------------------------------------------------- */
 .move1{
-    animation: jump 1s ease 0.5s infinite alternate;
+    animation: jump 1.5s linear 0.5s infinite normal;
 }
 
 .move2{
@@ -164,27 +164,43 @@ h5{
     0%{
         transform: scale(100%, 100%);
     }
-    10%{
+    5%{
         transform: scale(100%,88%);
     }
-    30%{
+    15%{
         transform: scale(100%, 83%);
     }
-    60%{
+    30%{
         transform: scale(100%, 98%);
     }
-    70%{
+    35%{
         transform: scale(100%, 110%);
-        transform: translate(0, -15%);
+        transform: translate(0, -18%);
     }
-    80%{
+    40%{
+        transform: scale(100%, 110%);
+        transform: translate(0, -33%);    
+    }
+    50%{
+        transform: scale(100%, 125%);
+        transform: translate(0, -65%);
+    }
+    60%{
         transform: scale(100%, 110%);
         transform: translate(0, -28%);    
     }
-    100%{
-        transform: scale(100%, 125%);
-        transform: translate(0, -60%);
+    65%{
+        transform: scale(100%, 110%);
+        transform: translate(0, -15%);
     }
+    75%{
+        transform: scale(100%, 110%);
+        transform: translate(0, -4%);
+    }
+    100%{
+        transform: scale(100%, 100%);
+    }
+
 }
 @keyframes cuddle {
     0%{
