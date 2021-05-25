@@ -1,18 +1,19 @@
 $(window).on("load", ()=>{
+    //Variables en las que se asignan las figuras que componen el slime y las animaciones.
     slimeSquare1=$("#Slime1");
     slimeSquare2=$("#Slime2");
-    slimeSquare3=$("#Slime3");
     anim1=$("#animation1");
     anim2=$("#animation2");
     anim3=$("#animation3");
 
+    //Variables en las que se asignan los botones de los colores.
     let btnRojo=$("#rojo");
     let btnRosa=$("#rosa");
     let btnVerde=$("#verde");
     let btnNaranja=$("#naranja");
     let slime=$(".bodySlime");
 
-    //Seccion donde se detecta el click para los colores del slime
+    //Seccion donde se detecta el click para los colores del slime.
     btnRojo.click(()=>{
         for(let i=0; i<2; i++){
             slime.css("background-color", "#B5282D")[i]; 
